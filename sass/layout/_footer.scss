@@ -1,0 +1,105 @@
+.footer {
+  padding: 3rem 2rem;
+  background-color: $color-very-light-gray;
+  background-image: url(../images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 0 -1rem;
+
+  @media only screen and (min-width: $bp-mobile) {
+    padding: 2rem 10rem;
+    background-image: url(../images/bg-pattern-footer-desktop.svg);
+    background-position: 0 0;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+
+    @media only screen and (min-width: $bp-mobile) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__content__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 2rem 0;
+
+    &--item {
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+
+    &--link {
+      text-decoration: none;
+    }
+
+    &--icon {
+      &:hover {
+        fill: $color-dark-violet;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    @media only screen and (min-width: $bp-mobile) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 85%;
+    }
+
+    @media only screen and (min-width: $bp-mobile) and (max-width: $bp-tablet) {
+      width: 100%;
+    }
+
+    &__list {
+      list-style: none;
+      padding: 2rem 0;
+      text-align: center;
+
+      @media only screen and (min-width: $bp-mobile) {
+        text-align: left;
+      }
+
+      &--item {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2;
+      }
+
+      &--link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-very-dark-violet;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-dark-grayish-violet;
+
+    @media only screen and (min-width: $bp-mobile) {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.btn:link,
+.btn:visited {
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+}
+
+.btn-white {
+  color: $color-very-light-gray;
+  border: 0.2rem solid $color-very-light-gray;
+
+  &:hover {
+    background-color: $color-very-light-gray;
+    color: $color-very-dark-violet;
+  }
+}
+
+.btn__mobile {
+  color: $color-very-light-gray;
+  border: 0.2rem solid $color-very-light-gray;
+  padding: 1rem 10rem;
+
+  &:hover {
+    background-color: $color-very-light-gray;
+    color: $color-very-dark-violet;
+  }
+}
+
+.btn-black {
+  color: $color-very-dark-violet;
+  border: 0.2rem solid $color-very-dark-violet;
+
+  &:hover {
+    background-color: $color-very-dark-violet;
+    color: $color-very-light-gray;
+  }
+}
