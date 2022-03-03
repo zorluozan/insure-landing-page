@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/zorluozan/insure-landing-page
+- Live Site URL: https://zorluozan.github.io/insure-landing-page/
 
 ## My process
 
@@ -35,7 +35,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - SCSS
-- BEM methodlogy for naming CSS classes
+- BEM methodology for naming CSS classes
 - Mobile-first workflow
 
 ### What I learned
