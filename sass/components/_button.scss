@@ -7,17 +7,7 @@
   padding: 1rem 3rem;
 }
 
-.btn-white {
-  color: $color-very-light-gray;
-  border: 0.2rem solid $color-very-light-gray;
-
-  &:hover {
-    background-color: $color-very-light-gray;
-    color: $color-very-dark-violet;
-  }
-}
-
-.btn__mobile {
+.btn-nav {
   color: $color-very-light-gray;
   border: 0.2rem solid $color-very-light-gray;
   padding: 1rem 10rem;
@@ -26,14 +16,23 @@
     background-color: $color-very-light-gray;
     color: $color-very-dark-violet;
   }
+
+  @media only screen and (min-width: $bp-mobile) {
+    color: $color-very-dark-violet;
+    border: 0.2rem solid $color-very-dark-violet;
+    &:hover {
+      background-color: $color-very-dark-violet;
+      color: $color-very-light-gray;
+    }
+  }
 }
 
-.btn-black {
-  color: $color-very-dark-violet;
-  border: 0.2rem solid $color-very-dark-violet;
+.btn-white {
+  color: $color-very-light-gray;
+  border: 0.2rem solid $color-very-light-gray;
 
   &:hover {
-    background-color: $color-very-dark-violet;
-    color: $color-very-light-gray;
+    background-color: $color-very-light-gray;
+    color: $color-very-dark-violet;
   }
 }
